@@ -43,7 +43,7 @@ body {
     color: #FFFFFF;
 }
 .topleft li .active {
-    color: blue;
+    color: yellow;
 }
 .topsearch {
     width: 100px;
@@ -90,4 +90,67 @@ body {
     height: 80px;
     float: left;
     margin-top: 7px;
+}
+.menu2 {
+    height: 40px;
+    background-color: red;
+}
+.menu2int {
+    width: 100%;
+    height: 40px;
+    max-width: 1040px; 
+    margin: auto;
+}
+.menu2int ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu2int li {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.menu2int li:hover .submenu1 { /* entra em menu > entra em li e verifica se o mouse está emcima desse li > entra em submenu e mostra a lista */
+    display: block;
+}
+.menu2int a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.submenu1 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    display: none; /* Não aparecer o submenu antes de uma determinada ação */
+}
+.menu2int li:hover .submenu2 {
+    display: block;
+}
+.submenu2 {
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    display: none;
+}
+.menu2int li:hover .submenu3 {
+    display: block;
+}
+.submenu3 {
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    display: none;
+}
+.submenuitem {
+    width: 140px;
+    height: 30px;
+    line-height: 30px; 
+    padding-left: 10px;
+}
+.submenuitem:hover {
+    background-color: #FF5555;
 }
