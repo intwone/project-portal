@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 12px;
+}
+.top {
+    height: 30px;
+    background-color: #333; 
+}
+.topint {
+    width: 100%;
+    max-width: 1040px; 
+    height: 30px;
+    margin: auto; /* bloco no centralizado no meio da tela */
+}
+.topleft {
+    width: 50%;
+    height: 30px;
+    float: left; /* alinha o bloco na esquerda */
+}
+.topright {
+    width: 50%;
+    height: 28px;
+    float: right; /* alinha o bloco na direita */
+    text-align: right;
+    margin-top: 2px;
+    
+}
+.topleft ul {
+    margin: 0;
+    padding: 0; 
+    list-style: none; /* retira o estilo da lista */
+}
+.topleft li {
+    height: 30px;
+    line-height: 30px; 
+    float: left; /* alinha cada item um ao lado do outro */
+    margin-left: 8px;
+    margin-right: 8px; 
+}
+.topleft li a {
+    text-decoration: none; /* retira qualquer estilo do link */
+    color: #FFFFFF;
+}
+.topleft li .active {
+    color: blue;
+}
+.topsearch {
+    width: 100px;
+    height: 26px;
+    outline: 0; /* retira o contorno azul da barra de pesquisa */
+}
+.topright a {
+    float: right;
+}
+.topright input {
+    float: right;  
+}
+.topright img {
+    margin-right: 4px;
+}
+.lupa {
+    margin-left: 4px;
+}
+.top2 {
+    height: 95px;
+    color: #FFFFFF;
+}
+.topint2 {
+    width: 100%;
+    max-width: 1040px; 
+    height: 95px;
+    margin: auto; /* bloco no centralizado no meio da tela */
+}
+.logo {
+    width: 230px;
+    height: 95px;
+    float: left;
+}
+.top2 .ads {
+    width: 650px;
+    height: 80px;
+    float: right;
+    background-color: red;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.logo img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-top: 7px;
+}
