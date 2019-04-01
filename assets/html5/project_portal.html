@@ -4,6 +4,7 @@
         <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
         <title>Portal</title>
         <link rel="stylesheet" href="../css/project_portal.css">
+        <script type="text/javascript" src="../javascript/project_portal.js"> type=</script>
     </head>
     <body>
         <div class="top">
@@ -90,8 +91,159 @@
         </div>
         <div class="container">
              <div class="containerint">
-                 <div class="leftside">...</div>
-                 <div class="rightside">...</div>
+                 <div class="leftside">
+                    <div class="slideshow" id="slideshow">
+                        <div class="slideball">
+                            <div class="ball" onclick="changeSlide(0)"></div>
+                            <div class="ball" onclick="changeSlide(1)"></div>
+                            <div class="ball" onclick="changeSlide(2)"></div>
+                            <div class="ball" onclick="changeSlide(3)"></div>
+                        </div>
+                        <div class="slideshowarea">
+                            <a href="http://www.google.com.br">
+                                <div class="slide" style="background-image:url('https://www.google.com.br/google.jpg')">
+                                    <div class="slideinfo">
+                                        <div class="slideinfo_title">
+                                            <b>Titulo de teste 1</b>
+                                        </div>
+                                        <div class="slideinfo_subtitle">
+                                            Subtitulo de teste 1
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="slide" style="background-image:url('https://www.google.com.br/google.jpg')">
+                                <div class="slideinfo">
+                                    <div class="slideinfo_title">
+                                        <b>Titulo de teste 2</b>
+                                    </div>
+                                    <div class="slideinfo_subtitle">
+                                        Subtitulo de teste 2
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide" style="background-image:url('https://www.google.com.br/google.jpg')">
+                                <div class="slideinfo">
+                                    <div class="slideinfo_title">
+                                        <b>Titulo de teste 3</b>
+                                    </div>
+                                    <div class="slideinfo_subtitle">
+                                        Subtitulo de teste 3
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide" style="background-image:url('https://www.google.com.br/google.jpg')">
+                                <div class="slideinfo">
+                                    <div class="slideinfo_title">
+                                        <b>Titulo de teste 4</b>
+                                    </div>
+                                    <div class="slideinfo_subtitle">
+                                        Subtitulo de teste 4
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget_title">NOTÍCIAS</div>
+                        <div class="widget_content" margin-left="5">
+                            <div class="newsarea1">
+                                <div class="newsitem newsmain">
+                                    <div class="newsimg">
+                                        <img src="" border="0" width="80" height="80"> 
+                                    </div>
+                                    <div class="newstitle">Alguma coisa</div>
+                                    <div class="newsinfo">Algum comentarios</div>
+                                </div>
+                            </div>
+                            <div class="newsarea2">
+                                <div class="newsitem">
+                                    <div class="newsimg">
+                                        <img src="" border="0" width="80" height="80"> 
+                                    </div>
+                                    <div class="newstitle">Alguma coisa</div>
+                                    <div class="newsinfo">Algum comentarios</div>
+                                </div>
+                                <div class="newsitem">
+                                    <div class="newsimg">
+                                        <img src="" border="0" width="80" height="80"> 
+                                    </div>
+                                    <div class="newstitle">Alguma coisa</div>
+                                    <div class="newsinfo">Algum comentarios</div>
+                                </div>
+                                <div class="newsitem">
+                                    <div class="newsimg">
+                                        <img src="" border="0" width="80" height="80"> 
+                                    </div>
+                                    <div class="newstitle">Alguma coisa</div>
+                                    <div class="newsinfo">Algum comentarios</div>
+                                </div>   
+                                <div class="newsitem">
+                                    <div class="newsimg">
+                                        <img src="" border="0" width="80" height="80"> 
+                                    </div>
+                                    <div class="newstitle">Alguma coisa</div>
+                                    <div class="newsinfo">Algum comentarios</div>
+                                </div>     
+                            </div>
+                            <div style="clear:both"></div>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="rightside">
+                    <div class="widget">
+                        <div class="widget_title">SOCIAL</div>
+                        <div class="widget_content" margin-left="5">
+                            <a href=""><img src="../images/youtube.png" border="0" width="23" height="23"/></a> 
+                            <a href=""><img src="../images/twitter2.png" border="0" width="23" height="23"/></a>
+                            <a href=""><img src="../images/facebook.png" border="0" width="23" height="23"/></a>
+                            <a href=""><img src="../images/google_plus.png" border="0" width="23" height="23"/></a>
+                            <a href=""><img src="../images/rss3.png" border="0" width="23" height="23"/></a>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget_title">ÚLTIMAS NOTÍCIAS</div>
+                        <div class="widget_content">
+                            <div class="news_text">
+                                <a href="./">
+                                    Preso por matar mulher em assalto no Xaxim é conhecido da família e confessou crime
+                                </a> 
+                            </div>
+                            <div class="news_text">
+                                <a href="./">
+                                    Após protestos, ministro da Saúde desiste de extinguir secretaria de saúde indígena
+                                </a> 
+                            </div>
+                            <div class="news_text">
+                                <a href="./">
+                                    Homem é preso com 20 kg de maconha paulista que seria entregue em Curitiba
+                                </a> 
+                            </div>
+                            <div class="news_text">
+                                <a href="./">
+                                    Paula e Hariany voltam a se alfinetar no BBB e amizade está abalada
+                                </a> 
+                            </div>
+                            <div class="news_text">
+                                <a href="./">
+                                    Região do Couto Pereira terá bloqueios para o show do Paul McCartney neste sábado
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget_title">PÚBLICIDADE</div>
+                        <div class="widget_content">
+                            <img src="../images/publicidade.png" border="0" width="275"/>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget_title">ENCONTRE-NÓS NO FACEBOOK</div>
+                        <div class="widget_content">
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs&width=340&height=121&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="270" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                        </div>
+                    </div>
+                 </div>
              </div>
         </div>
     </body>
